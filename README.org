@@ -16,7 +16,7 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 - [ ] iOS/Android version of the website?
 
 * Platform
-- Language: I only have experience with NodeJS/Express  Can website experts comment on suitability for the website intended?
+- Language: I only have experience with NodeJS/Express.  Can website experts comment on suitability for the website intended?
 - Host: Digital Ocean (maybe the digitalOcean guys would waive hosting fees and donate the suitable bandwidth required for a nationwide website).
 - Domain: Anyone want to donate a suitable domain they may be hoarding for no reason?
 - Database: MySQL or MongoDB? (could a database expert comment on this?)
