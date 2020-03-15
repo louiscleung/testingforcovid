@@ -4,7 +4,7 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 
 * Features I feel should be possible but needs proper planning
 - [ ] Symptom filter - following expect medical advice to help people decide if they need the test (can Stanford Medicine step in here?). 
-- [ ] Map of testing sites - live map where directions to nearest two sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode?
+- [ ] Map of testing sites - live map where directions to nearest two sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode? Could we ask Google to sponsor the use of Google Maps API?
 - [ ] A method of communicating the results - here's where I'm not sure how to do it. We should make it as anonymous a process as possible - but would a form to submit an email address for LabCorp/Quest to email you your result be a good idea? Perhaps people should submit contact details at the testing site itself rather than to the website. The least data collected on the website visitor the better.
 - [ ] Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified?
 
@@ -18,7 +18,7 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 - Language: I only have experience with NodeJS/Express  Can website experts comment on suitability for the website intended?
 - Host: Digital Ocean (maybe the digitalOcean guys would waive hosting fees and donate the suitable bandwidth required for a nationwide website).
 - Domain: Anyone want to donate a suitable domain they may be hoarding for no reason?
-- Database: MySQL or MongoDB? (could a database expert comment on this?)
+- Database: Firebase, MySQL or MongoDB? (could a database expert comment on this?)
 
 * Donations
 - I don't want any money for this so could people just donate their time instead to help however they can.  I only ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job) and use their social media presence to spread the word once we know it works and is secure.
@@ -29,3 +29,8 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 
 * Current progress
 - 14mar2020 3.43pm: Just in planning phase. Hope to put together a mock webpage as a schematic of what I think will be of utility today.
+- 15mar2020: Basic prototype done on which you build further.
+
+* Screenshots
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[img/symptomForm.png]]
