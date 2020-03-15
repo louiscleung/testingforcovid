@@ -1,16 +1,17 @@
+* Let's collaborate to make the Covid-19 triage website available nationally without delay
 Since the government announced it but Google won't do it, let's leverage the supposed talent in Silicon Valley to create the website that should exist for the entire nation to filter people who need testing and direct them to the nearest test site. It can't be that hard?! I'm a neuroscientist by training who only just got into software engineering so I'm gonna need help from people in the medical field, website development, databasing, security and legal. I must be missing other topics/considerations so to the experts out there, please let me know what they are (see Contact). Since I'm not an expert in several of these areas, I'd prefer if the experts would volunteer and coordinate those parts. Happy to hear from the public companies running the tests on what they'd like to see in terms of coordinating people prior to them turning up.
 
 If every Bay Area software engineer volunteered one hour each and collaborated on this (rather than buying toilet paper), it will be up and running in no time.  If the rest of the global talent contribute, it could be world wide end of the month.  Let's forget the profit motive here and make this open source so that other countries can take it and run with it. 
 
 * Features I feel should be possible but needs proper planning
-- [ ] Symptom filter - following expect medical advice to help people decide if they need the test (can Stanford Medicine step in here?). 
+- [ ] Symptom filter - following expect medical advice to help people decide if they need the test (Needs some reputable organisations to curate and endorse - can CDC/Stanford Medicine step in here?). 
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/symptomForm.png]]
-- [ ] Map of testing sites - live map where directions to nearest two sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode? Could we ask Google to sponsor the use of Google Maps API?
+- [ ] Map of testing sites - live map where directions to nearest two/three sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode? Could we ask Google to sponsor the use of Google Maps API?
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/directions.png]]
 - [ ] A method of communicating the results - here's where I'm not sure how to do it. We should make it as anonymous a process as possible - but would a form to submit an email address for LabCorp/Quest to email you your result be a good idea? Perhaps people should submit contact details at the testing site itself rather than to the website. The least data collected on the website visitor the better.
-- [ ] Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified?
+- [ ] Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  Perhaps submit photos so people know where to go?  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified?
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/newTestSiteForm.png]]
 
@@ -19,7 +20,7 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 - [ ] Authentication - should users need to login/register to use the site to prevent overloading? OAuth2? Not handling personal info is preferable.
 - [ ] Tests for security - make sure the website is robust against attack (can Security engineers help design infrastructure, try and break it and submit fixes?)
 - [ ] Reports to CDC/Federal government. How do people feel to report the website traffic (completely anonymized) to the government to give a sense of the infection rate in areas. This would require collecting IP addresses/zipcodes.   
-- [ ] iOS/Android version of the website?
+- [ ] iOS/Android version of the website? Does someone from Apple or Google want to take these on?
 
 * Platform
 - Language: I only have experience with NodeJS/Express.  Can website experts comment on suitability for the website intended?
@@ -29,7 +30,7 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 
 * Current progress
 - 14mar2020 3.43pm: Just in planning phase. Hope to put together a mock webpage as a schematic of what I think will be of utility today.
-- 15mar2020: Basic prototype done on which you build further.
+- 15mar2020 1.10am: Basic prototype done on which need help to build further.
 
 * Donations
 - I don't want any money for this so could people just donate their time instead to help however they can.  I only ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job), waive API call fees (such as Google Maps API), and use their social media presence to spread the word once we know it works and is secure.
