@@ -4,9 +4,15 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 
 * Features I feel should be possible but needs proper planning
 - [ ] Symptom filter - following expect medical advice to help people decide if they need the test (can Stanford Medicine step in here?). 
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[img/symptomForm.png]]
 - [ ] Map of testing sites - live map where directions to nearest two sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode? Could we ask Google to sponsor the use of Google Maps API?
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[img/directions.png]]
 - [ ] A method of communicating the results - here's where I'm not sure how to do it. We should make it as anonymous a process as possible - but would a form to submit an email address for LabCorp/Quest to email you your result be a good idea? Perhaps people should submit contact details at the testing site itself rather than to the website. The least data collected on the website visitor the better.
 - [ ] Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified?
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[img/newTestSiteForm.png]]
 
 * Other considerations?
 - [ ] Sign up for testing - should there be a step where after the symptom selection filter that you digitally confirm/sign (under perjury law?) that you do in fact have these symptoms (to prevent symptomless time-wasters).  If you accept, then you could get a QR code that testing sites can scan to verify.  This would reduce the load on the testing sites to filter the genuinely sick from those gaming the website to get a test.
@@ -21,17 +27,14 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 - Domain: Anyone want to donate a suitable domain they may be hoarding for no reason?
 - Database: Firebase, MySQL or MongoDB? (could a database expert comment on this?)
 
+* Current progress
+- 14mar2020 3.43pm: Just in planning phase. Hope to put together a mock webpage as a schematic of what I think will be of utility today.
+- 15mar2020: Basic prototype done on which you build further.
+
 * Donations
-- I don't want any money for this so could people just donate their time instead to help however they can.  I only ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job) and use their social media presence to spread the word once we know it works and is secure.
+- I don't want any money for this so could people just donate their time instead to help however they can.  I only ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job), waive API call fees (such as Google Maps API), and use their social media presence to spread the word once we know it works and is secure.
 
 * Contact
 - Initially please message @louis_leung on twitter (I'll open up DMs if required) if you are serious and want to volunteer or even help with coordination of the project.
 - if we get traction on the project, it might make sense to use Slack to coordinate (can someone from Slack help with that?)
 
-* Current progress
-- 14mar2020 3.43pm: Just in planning phase. Hope to put together a mock webpage as a schematic of what I think will be of utility today.
-- 15mar2020: Basic prototype done on which you build further.
-
-* Screenshots
-#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[img/symptomForm.png]]
