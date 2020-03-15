@@ -9,13 +9,14 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 - [ ] Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified?
 
 * Other considerations?
-- [ ] Sign up for testing, should there be a step where after the symptom selection filter that you digitally confirm/sign (under perjury law?) that you do in fact have these symptoms (to prevent symptomless time-wasters).  If you accept, then you could get a QR code that testing sites can scan to verify.  This would reduce the load on the testing sites to filter the genuinely sick from those gaming the website to get a test.
+- [ ] Sign up for testing - should there be a step where after the symptom selection filter that you digitally confirm/sign (under perjury law?) that you do in fact have these symptoms (to prevent symptomless time-wasters).  If you accept, then you could get a QR code that testing sites can scan to verify.  This would reduce the load on the testing sites to filter the genuinely sick from those gaming the website to get a test.
 - [ ] Authentication - should users need to login/register to use the site to prevent overloading? OAuth2? Not handling personal info is preferable.
 - [ ] Tests for security - make sure the website is robust against attack (can Security engineers help design infrastructure, try and break it and submit fixes?)
 - [ ] Reports to CDC/Federal government. How do people feel to report the website traffic (completely anonymized) to the government to give a sense of the infection rate in areas. This would require collecting IP addresses/zipcodes.   
+- [ ] iOS/Android version of the website?
 
 * Platform
-- Language: I only have experience with NodeJS/Express  Can website experts comment on suitability for the website intended?
+- Language: I only have experience with NodeJS/Express.  Can website experts comment on suitability for the website intended?
 - Host: Digital Ocean (maybe the digitalOcean guys would waive hosting fees and donate the suitable bandwidth required for a nationwide website).
 - Domain: Anyone want to donate a suitable domain they may be hoarding for no reason?
 - Database: Firebase, MySQL or MongoDB? (could a database expert comment on this?)
