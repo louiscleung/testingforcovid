@@ -2,6 +2,8 @@
 Since the government announced it but Google won't do it, let's leverage the supposed talent in Silicon Valley to create the website that should exist for the entire nation to filter people who need testing and direct them to the nearest test site. It can't be that hard?! I'm a neuroscientist by training who only just got into software engineering so I'm gonna need help from people in the medical field, website development, databasing, security and legal. I must be missing other topics/considerations so to the experts out there, please let me know what they are (see Contact). Since I'm not an expert in several of these areas, I'd prefer if the experts would volunteer and coordinate those parts. Happy to hear from the public companies running the tests on what they'd like to see in terms of coordinating people prior to them turning up.
 
 If every Bay Area software engineer volunteered one hour each and collaborated on this (rather than buying toilet paper), it will be up and running in no time.  If the rest of the global talent contribute, it could be world wide end of the month.  Let's forget the profit motive here and make this open source so that other countries can take it and run with it. 
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[img/simpleHomePage.png]]
 
 * Features I feel should be possible but needs proper planning
 - [ ] Symptom filter - following expect medical advice to help people decide if they need the test (Needs some reputable organisations to curate and endorse - can CDC/Stanford Medicine step in here?). 
@@ -31,7 +33,9 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 * Current progress
 - 14mar2020 3.43pm: Just in planning phase. Hope to put together a mock webpage as a schematic of what I think will be of utility today.
 - 15mar2020 1.10am: Basic prototype done on which need help to build further.
-
+- 16mar2020 Aesthetic improvements and added real drive thru sites reported in the news.
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[img/currentMap.png]]
 * Donations
 - I don't want any money for this so could people just donate their time instead to help however they can.  I only ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job), waive API call fees (such as Google Maps API), and use their social media presence to spread the word once we know it works and is secure.
 
