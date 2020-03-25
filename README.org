@@ -6,14 +6,14 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 [[img/simpleHomePage.png]]
 
 * Features I feel should be possible but needs proper planning
-- [ ] Symptom filter - following expect medical advice to help people decide if they need the test (Needs some reputable organisations to curate and endorse - can CDC/Stanford Medicine step in here?). 
+- [X] Symptom filter - following expect medical advice to help people decide if they need the test (Needs some reputable organisations to curate and endorse - can CDC/Stanford Medicine step in here?). 
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/symptomForm.png]]
-- [ ] Map of testing sites - live map where directions to nearest two/three sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode? Could we ask Google to sponsor the use of Google Maps API?
+- [X] Map of testing sites - live map where directions to nearest two/three sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode? Could we ask Google to sponsor the use of Google Maps API?
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/directions.png]]
-- [ ] A method of communicating the results - here's where I'm not sure how to do it. We should make it as anonymous a process as possible - but would a form to submit an email address for LabCorp/Quest to email you your result be a good idea? Perhaps people should submit contact details at the testing site itself rather than to the website. The least data collected on the website visitor the better.
-- [ ] Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  Perhaps submit photos so people know where to go?  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified?
+- [Postponed] A method of communicating the results - here's where I'm not sure how to do it. We should make it as anonymous a process as possible - but would a form to submit an email address for LabCorp/Quest to email you your result be a good idea? Perhaps people should submit contact details at the testing site itself rather than to the website. The least data collected on the website visitor the better.
+- [X] Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  Perhaps submit photos so people know where to go?  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified?
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/newTestSiteForm.png]]
 
@@ -23,6 +23,13 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 - [ ] Tests for security - make sure the website is robust against attack (can Security engineers help design infrastructure, try and break it and submit fixes?)
 - [ ] Reports to CDC/Federal government. How do people feel to report the website traffic (completely anonymized) to the government to give a sense of the infection rate in areas. This would require collecting IP addresses/zipcodes.   
 - [ ] iOS/Android version of the website? Does someone from Apple or Google want to take these on?
+- [X] Bookmarklet for extracting latitude and longitude from url of Google Maps
+#+BEGIN_EXAMPLE
+ //Convoluted but only way to achieve: create a hidden textarea to paste lat/long text in order to select and copy to clipboard
+ 
+ javascript:(function(){var body = document.getElementsByTagName('body')[0]; var hidden = document.createElement('textarea'); hidden.setAttribute('id','clipboard'); body.appendChild(hidden); document.getElementById('clipboard').value = window.location.href.split('@')[1].split(',')[0] + window.location.href.split('@')[1].split(',')[1]; document.getElementById('clipboard').select(); document.execCommand('copy');})();
+#+END_EXAMPLE
+
 
 * Platform
 - Language: I only have experience with NodeJS/Express.  Can website experts comment on suitability for the website intended?
@@ -34,12 +41,15 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 - 14mar2020 3.43pm: Just in planning phase. Hope to put together a mock webpage as a schematic of what I think will be of utility today.
 - 15mar2020 1.10am: Basic prototype done on which need help to build further.
 - 16mar2020 Aesthetic improvements and added real drive thru sites reported in the news.
+- 17-24mar2020 Testing and adding news source drive thru sites throughout the US
+- 25mar2020 Beta version live
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/currentMap.png]]
 * Donations
-- I don't want any money for this so could people just donate their time instead to help however they can.  I only ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job), waive API call fees (such as Google Maps API), and use their social media presence to spread the word once we know it works and is secure.
+-  I don't want any money for this; happy if people would just donate their time instead to help however they can.  Perhaps donations welcome to offset cost of running the site, SSL certification, database servers and any unused go to a homeless charity. In fact, i'd ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job), waive API call fees (such as Google Maps API), and use their social media presence to spread the word once we know it works and is secure.
 
 * Contact
 - Initially please message @louis_leung on twitter (I'll open up DMs if required) if you are serious and want to volunteer or even help with coordination of the project.
+- Email testingforcovid@gmail.com if you have updates for, or find errors in, the information of the sites on the map
 - if we get traction on the project, it might make sense to use Slack to coordinate (can someone from Slack help with that?)
 
