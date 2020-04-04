@@ -18,6 +18,7 @@ If every Bay Area software engineer volunteered one hour each and collaborated o
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/newTestSiteForm.png]]
 - [ ] Live busy-ness scale.  Some way for the general public to say they are in line at a specific site and check in time of arrival and how many cars are in front so that there is live info on how busy it is so that others can choose a less busy alternative site (if there is one).  Kinda like Google Maps results have bar charts of whether a store is currently busy by the hour. Any ideas how to do that in the Google Maps pin pop out window? Would enough people even submit data to make the feature worthwhile?
+- [ ] Multi-language support.  Need multilingual volunteers to produce natural sounding translations of website text.
 - [ ] Voting/rating/feedback system.  In order to classify existing sites, we could have some kinda voting system when people have visited the site to rate the site for waiting time, whether they got served at all, whether it was free, how long it takes to get results etc...  Ideally a volunteer from youtube, FB or twitter would know how to make such a feature.
 - [ ] Scheduler.  In order to increase efficiency at drive-through testing sites, an appointment system would likely be better than a free-for-all line of cars where many will go and be disappointed.  Live inventory would help distribute people to sites of availability. However, this will require coordination to the various providers of tests so might not be realistic that they would sign up to a third party to handle scheduling.  I would need an experienced volunteer to take on that feature.
 - [Postponed] A method of communicating the results - here's where I'm not sure how to do it. We should make it as anonymous a process as possible - but would a form to submit an email address for LabCorp/Quest to email you your result be a good idea? Perhaps people should submit contact details at the testing site itself rather than to the website. My view is the least data collected on the website visitor the better.
@@ -47,6 +48,7 @@ Convoluted, but only way I found to achieve this
 - 16mar2020 Aesthetic improvements and added real drive thru sites reported in the news.
 - 17-24mar2020 Testing and adding news source drive thru sites throughout the US
 - 25mar2020 Beta version live at https://www.testingforcovid.com
+- 03apr2020 iOS lead developer found to produce companion iOS app
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[img/currentMap.png]]
 * Donations
