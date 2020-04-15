@@ -5,18 +5,18 @@ Since the government already announced it but Google won't do it, let's leverage
 
 If every Bay Area software engineer volunteered one hour each and collaborated on this (rather than buying toilet paper), it will be up and running in no time.  If the rest of the global talent contribute, it could be world wide end of the month.  Let's forget the profit motive here and make this free with zero ads and no keeping data to sell. 
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[img/simpleHomePage.png]]
+[[img/homePage.png]]
 
 * Features I feel should be possible but needs proper planning
 - [X] Symptom filter - following expect medical advice to help people decide if they need the test (Needs some reputable organisations to curate and endorse - can CDC/Stanford Medicine step in here?). 
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[img/symptomForm.png]]
+[[img/symptomForm2.png]]
 - [X] Map of testing sites - live map where directions to nearest two/three sites are (can Google maps/Apple maps/Tesla engineers step in here?). Should we use IP address of client or have people submit their zipcode? Could we ask Google to sponsor the use of Google Maps API?
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[img/directions.png]]
+[[img/directions2.png]]
 - [X] new Testing site collator - a form where the general public and companies (CVS, Walgreens, Walmart, Target etc...) can submit the location/times of operation of the testing sites as they discover them or come online respectively.  Perhaps submit photos so people know where to go?  How do we prevent submission of incorrect information? Say 5 people saying the same location => verified? Should I provide an optional field for people's names so I can put them on a wall of fame to feel proud of helping make the website better?
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[img/newTestSiteForm.png]]
+[[img/newTestSiteForm2.png]]
 - [ ] Live busy-ness scale.  Some way for the general public to say they are in line at a specific site and check in time of arrival and how many cars are in front so that there is live info on how busy it is so that others can choose a less busy alternative site (if there is one).  Kinda like Google Maps results have bar charts of whether a store is currently busy by the hour. Any ideas how to do that in the Google Maps pin pop out window? Would enough people even submit data to make the feature worthwhile?
 - [ ] Multi-language support.  Need multilingual volunteers to produce natural sounding translations of website text.
 - [ ] Voting/rating/feedback system.  In order to classify existing sites, we could have some kinda voting system when people have visited the site to rate the site for waiting time, whether they got served at all, whether it was free, how long it takes to get results etc...  Ideally a volunteer from youtube, FB or twitter would know how to make such a feature.
@@ -49,13 +49,14 @@ Convoluted, but only way I found to achieve this
 - 17-24mar2020 Testing and adding news source drive thru sites throughout the US
 - 25mar2020 Beta version live at https://www.testingforcovid.com
 - 03apr2020 iOS lead developer found to produce companion iOS app
+- 13apr2020 Beta testing finished. Website live. iOS app submitted to App Store pending review
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
-[[img/currentMap.png]]
+[[img/currentMap2.png]]
 * Donations
 -  I don't want any money for this; happy if people would just donate their time instead to help however they can.  Perhaps donations welcome to offset cost of running the site, SSL certification, database servers and any unused go to a homeless charity. In fact, i'd ask if big tech companies would consider paying to host and maintain the website (take it off my hands as I already have a day job), waive API call fees (such as Google Maps API), and use their social media presence to spread the word once we know it works and is secure.
 
 * Contact
 - Initially please message @louis_leung on twitter (I'll open up DMs if required) if you are serious and want to volunteer or even help with coordination of the project.
-- Email testingforcovid@gmail.com if you have updates for, or find errors in, the information of the sites on the map
-- if we get traction on the project, it might make sense to use Slack to coordinate (can someone from Slack help with that?)
+- Either click on pin on map and follow link or email directly testingforcovid@gmail.com if you have updates for, or find errors in, the information of the sites on the map
+- We have a Slack workshop - email us at testingforcovid@gmail.com to get an invitation.  In the email, tell us how you want to volunteer.
 
