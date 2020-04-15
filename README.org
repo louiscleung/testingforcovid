@@ -57,6 +57,10 @@ Convoluted, but only way I found to achieve this
 
 * Contact
 - Initially please message @louis_leung on twitter (I'll open up DMs if required) if you are serious and want to volunteer or even help with coordination of the project.
-- Either click on pin on map and follow link or email directly testingforcovid@gmail.com if you have updates for, or find errors in, the information of the sites on the map
+- Either click on pin on map and follow link or email directly testingforcovid@gmail.com if you have updates for, or find errors in, the information of the sites on the map.
 - We have a Slack workshop - email us at testingforcovid@gmail.com to get an invitation.  In the email, tell us how you want to volunteer.
+- Follow us on instagram/twitter @testingforcovid and on our Facebook page facebook.com/testingforcovid.
+
+* Press
+- We were recently featured in the SFciti blog: https://sfciti.org/news/tech-tools-to-track-the-spread-of-covid-19-and-find-covid-19-testing-sites/
 
